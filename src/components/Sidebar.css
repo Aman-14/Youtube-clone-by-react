@@ -1,0 +1,28 @@
+.sidebar {
+    width: 15%;
+    overflow: auto;
+}
+
+.row__selected {
+    background-color: violet;
+}
+
+.sidebar__row {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar__row:hover {
+    background-color: #F2F2F2;
+    cursor: pointer;
+}
+
+.sidebar__icons {
+    color: #606060 !important;
+    font-size: 1.1rem !important;
+    margin: 0 1rem;
+}
+
+.sidebar__title {
+    font-size: 0.7rem;
+}

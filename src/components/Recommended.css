@@ -1,0 +1,67 @@
+.recommended {
+    width: 80%;
+    position: sticky;
+    top: 0;
+    /* overflow: auto; */
+}
+
+.recommended__suggestionContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -2px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.recommended__suggestion {
+    border: 1px solid #878787;
+    padding: 3px 8px;
+    border-radius: 15px;
+    font-size: 0.7rem;
+    background-color: #f2f2f2;
+}
+
+.recommended__suggestion:hover {
+    background-color: #E5E5E5;
+    cursor: pointer;
+}
+
+.recommended__videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.recommended__videoCard {
+    width: 230px;
+    margin-bottom: 3rem;
+}
+
+.videocard__img {
+    width: 100%;
+}
+
+.videocard__title {
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin: 4px 0;
+}
+
+.videocard__icon {
+    color: #606060;
+    font-size: 0.8rem !important;
+    position: relative;
+    top: 3px;
+    left: 4px;
+}
+
+.videocard__info {
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+.videocard__info>p {
+    margin: 2px 0;
+}
